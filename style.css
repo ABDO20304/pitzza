@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    scroll-behavior: smooth;
+}
+/*utility classes*/
+.btn{
+    text-decoration: none;
+    color: aliceblue;
+    border: solid 4px rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.6s ease;
+}
+/* header styla */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+    background-color: #64320d;
+
+}
+header img{
+    width: 60px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.ulnav li{
+    margin: 10px ;
+    
+}
+.ulnav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+.ulnav a:hover {
+    color: gold;
+    border-bottom: 2px solid gold;
+}
+/*header end*/
+/* hero style*/
+.hero{
+    background: url(img/home_bg.jpeg) center center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+    
+}
+.heroligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15%;
+}
+.heroligne h1{
+    color: aliceblue;
+    font-weight: 900;
+    margin: 30px;
+    font-size: xx-large;
+}
+.ef{
+    color: yellow;
+}
+.hero-par{
+    font-size: x-large;
+    font-weight: 600;
+    color: aliceblue;
+}
+.heroligne a:hover{
+    background-color: gold;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+/*hero style end*/
+/*about styla start*/
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+.title h2{
+    font-size:30px ;
+    font-weight: 800;
+    color: gold;
+}
+.contenar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+.paragraphe {
+    width: 500px;
+    margin: 10px;
+
+}
+.pr{
+    font-weight: 400;
+    font-size: larger;
+    padding: 10px;
+    text-align: center;
+
+}
+.sconde-btn{
+    margin: 25px ;
+    background-color:rgb(50, 90, 165);
+}
+.boten{
+    margin: 30px 10px;
+}
+.sconde-btn{
+    transition: 0.6s ease;
+}
+.sconde-btn:hover{
+    transform: scale(1.2);
+    background-color: gold;
+}
+/*about styla end*/
+/*offers style start*/
+
+.offer{
+    background-color: #533b07;
+}
+.contenir{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.title p{
+    color: aliceblue;
+    font-weight: 600;
+}
+.offer-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cred{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgb(121, 79, 51);
+    margin: 40px;
+    padding: 40px;
+    transition: 0.6s ease;
+    border-radius: 25px;
+    width: min-content;
+}
+.emag{
+    width: 250px;
+}
+.cred h3{
+    font-size: larger;
+    font-weight: 800;
+    margin: 15px;
+}
+.cred:hover{
+    transform: scale(1.1);
+}
+.prix{
+    color: gold;
+    font-weight: 800;
+    font-size: xx-large;
+    gap: 10px;
+}
+.old-price{
+    color: gray;
+    font-size: 20px;
+    font-weight: 500;
+    gap: 10px;
+}
+/*offers style end*/
+/*manu style start*/
+.title .prt{
+    color: black;
+}
+.foods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.r-food{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+   
+}
+.l-fool{
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+.titel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.titel p{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.titel p{
+    color: gold;
+    font-weight: 700;
+    font-size: 25px;
+}
+.ads{
+    padding: 0px 15px;
+}
+.manu-btn{
+    margin: 50px;
+}
+/*manu style end*/
+/*food time style start*/
+.food-times{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    flex-wrap: wrap;
+}
+.food-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px 20px;
+    flex-wrap: wrap;
+}
+.g{
+    background-color: gold;
+}
+/*food time style end*/
+/*food gallery style start*/
+.gallery-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gallery-img img{
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.glori{
+    background-color: #191938;
+}
+/*food gallery style end*/
+/*contacte style start*/
+
+
+
+/*contacte style end*/
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
